@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		813B68E01D545ED2009FE18A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 813B68DF1D545ED2009FE18A /* main.m */; };
+		813B68E31D545ED2009FE18A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 813B68E21D545ED2009FE18A /* AppDelegate.m */; };
+		813B68E61D545ED2009FE18A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813B68E51D545ED2009FE18A /* ViewController.m */; };
+		813B68E91D545ED2009FE18A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813B68E71D545ED2009FE18A /* Main.storyboard */; };
+		813B68EB1D545ED2009FE18A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813B68EA1D545ED2009FE18A /* Assets.xcassets */; };
+		813B68EE1D545ED2009FE18A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813B68EC1D545ED2009FE18A /* LaunchScreen.storyboard */; };
+		813B68F91D545ED3009FE18A /* TetsHuiFuBaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 813B68F81D545ED3009FE18A /* TetsHuiFuBaoTests.m */; };
+		813B69041D545ED3009FE18A /* TetsHuiFuBaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 813B69031D545ED3009FE18A /* TetsHuiFuBaoUITests.m */; };
+		813B691B1D546159009FE18A /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 813B69131D546159009FE18A /* AlipaySDK.bundle */; };
+		813B691C1D546159009FE18A /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813B69141D546159009FE18A /* AlipaySDK.framework */; };
+		813B691D1D546159009FE18A /* HeePay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813B69151D546159009FE18A /* HeePay.framework */; };
+		813B691E1D546159009FE18A /* heepayImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 813B69161D546159009FE18A /* heepayImage.bundle */; };
+		813B691F1D546159009FE18A /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 813B69181D546159009FE18A /* libWeChatSDK.a */; };
+		813B69291D546165009FE18A /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 813B69221D546165009FE18A /* BaseModel.m */; };
+		813B692A1D546165009FE18A /* HYHeePayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 813B69241D546165009FE18A /* HYHeePayModel.m */; };
+		813B692B1D546165009FE18A /* HYTestXMLParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 813B69261D546165009FE18A /* HYTestXMLParse.m */; };
+		813B692C1D546165009FE18A /* WebRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 813B69281D546165009FE18A /* WebRequest.m */; };
+		813B692E1D546178009FE18A /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813B692D1D546178009FE18A /* JavaScriptCore.framework */; };
+		813B69301D54617E009FE18A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813B692F1D54617E009FE18A /* CoreMotion.framework */; };
+		813B69321D546186009FE18A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813B69311D546186009FE18A /* CoreTelephony.framework */; };
+		813B69341D54618D009FE18A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813B69331D54618D009FE18A /* CoreGraphics.framework */; };
+		813B69361D546194009FE18A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813B69351D546194009FE18A /* SystemConfiguration.framework */; };
+		813B69381D54619A009FE18A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813B69371D54619A009FE18A /* CFNetwork.framework */; };
+		813B693A1D5461A4009FE18A /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 813B69391D5461A4009FE18A /* libc++.1.tbd */; };
+		813B693C1D5461AE009FE18A /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 813B693B1D5461AE009FE18A /* libz.1.2.5.tbd */; };
+		813B693E1D5461B6009FE18A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 813B693D1D5461B6009FE18A /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		813B68F51D545ED3009FE18A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 813B68D31D545ED2009FE18A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 813B68DA1D545ED2009FE18A;
+			remoteInfo = TetsHuiFuBao;
+		};
+		813B69001D545ED3009FE18A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 813B68D31D545ED2009FE18A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 813B68DA1D545ED2009FE18A;
+			remoteInfo = TetsHuiFuBao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		813B68DB1D545ED2009FE18A /* TetsHuiFuBao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetsHuiFuBao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		813B68DF1D545ED2009FE18A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		813B68E11D545ED2009FE18A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		813B68E21D545ED2009FE18A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		813B68E41D545ED2009FE18A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		813B68E51D545ED2009FE18A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		813B68E81D545ED2009FE18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		813B68EA1D545ED2009FE18A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		813B68ED1D545ED2009FE18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		813B68EF1D545ED2009FE18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813B68F41D545ED3009FE18A /* TetsHuiFuBaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetsHuiFuBaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		813B68F81D545ED3009FE18A /* TetsHuiFuBaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetsHuiFuBaoTests.m; sourceTree = "<group>"; };
+		813B68FA1D545ED3009FE18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813B68FF1D545ED3009FE18A /* TetsHuiFuBaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetsHuiFuBaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		813B69031D545ED3009FE18A /* TetsHuiFuBaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetsHuiFuBaoUITests.m; sourceTree = "<group>"; };
+		813B69051D545ED3009FE18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813B69131D546159009FE18A /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		813B69141D546159009FE18A /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		813B69151D546159009FE18A /* HeePay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HeePay.framework; sourceTree = "<group>"; };
+		813B69161D546159009FE18A /* heepayImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = heepayImage.bundle; sourceTree = "<group>"; };
+		813B69181D546159009FE18A /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		813B69191D546159009FE18A /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		813B691A1D546159009FE18A /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		813B69211D546165009FE18A /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		813B69221D546165009FE18A /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		813B69231D546165009FE18A /* HYHeePayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHeePayModel.h; sourceTree = "<group>"; };
+		813B69241D546165009FE18A /* HYHeePayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHeePayModel.m; sourceTree = "<group>"; };
+		813B69251D546165009FE18A /* HYTestXMLParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTestXMLParse.h; sourceTree = "<group>"; };
+		813B69261D546165009FE18A /* HYTestXMLParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTestXMLParse.m; sourceTree = "<group>"; };
+		813B69271D546165009FE18A /* WebRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebRequest.h; sourceTree = "<group>"; };
+		813B69281D546165009FE18A /* WebRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebRequest.m; sourceTree = "<group>"; };
+		813B692D1D546178009FE18A /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/PrivateFrameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		813B692F1D54617E009FE18A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		813B69311D546186009FE18A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		813B69331D54618D009FE18A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		813B69351D546194009FE18A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		813B69371D54619A009FE18A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		813B69391D5461A4009FE18A /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		813B693B1D5461AE009FE18A /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		813B693D1D5461B6009FE18A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		813B68D81D545ED2009FE18A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813B693E1D5461B6009FE18A /* libsqlite3.tbd in Frameworks */,
+				813B693C1D5461AE009FE18A /* libz.1.2.5.tbd in Frameworks */,
+				813B693A1D5461A4009FE18A /* libc++.1.tbd in Frameworks */,
+				813B69381D54619A009FE18A /* CFNetwork.framework in Frameworks */,
+				813B69361D546194009FE18A /* SystemConfiguration.framework in Frameworks */,
+				813B69341D54618D009FE18A /* CoreGraphics.framework in Frameworks */,
+				813B69321D546186009FE18A /* CoreTelephony.framework in Frameworks */,
+				813B69301D54617E009FE18A /* CoreMotion.framework in Frameworks */,
+				813B692E1D546178009FE18A /* JavaScriptCore.framework in Frameworks */,
+				813B691D1D546159009FE18A /* HeePay.framework in Frameworks */,
+				813B691C1D546159009FE18A /* AlipaySDK.framework in Frameworks */,
+				813B691F1D546159009FE18A /* libWeChatSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813B68F11D545ED3009FE18A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813B68FC1D545ED3009FE18A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		813B68D21D545ED2009FE18A = {
+			isa = PBXGroup;
+			children = (
+				813B693D1D5461B6009FE18A /* libsqlite3.tbd */,
+				813B693B1D5461AE009FE18A /* libz.1.2.5.tbd */,
+				813B69391D5461A4009FE18A /* libc++.1.tbd */,
+				813B69371D54619A009FE18A /* CFNetwork.framework */,
+				813B69351D546194009FE18A /* SystemConfiguration.framework */,
+				813B69331D54618D009FE18A /* CoreGraphics.framework */,
+				813B69311D546186009FE18A /* CoreTelephony.framework */,
+				813B692F1D54617E009FE18A /* CoreMotion.framework */,
+				813B692D1D546178009FE18A /* JavaScriptCore.framework */,
+				813B68DD1D545ED2009FE18A /* TetsHuiFuBao */,
+				813B68F71D545ED3009FE18A /* TetsHuiFuBaoTests */,
+				813B69021D545ED3009FE18A /* TetsHuiFuBaoUITests */,
+				813B68DC1D545ED2009FE18A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		813B68DC1D545ED2009FE18A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				813B68DB1D545ED2009FE18A /* TetsHuiFuBao.app */,
+				813B68F41D545ED3009FE18A /* TetsHuiFuBaoTests.xctest */,
+				813B68FF1D545ED3009FE18A /* TetsHuiFuBaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		813B68DD1D545ED2009FE18A /* TetsHuiFuBao */ = {
+			isa = PBXGroup;
+			children = (
+				813B69201D546165009FE18A /* Tools */,
+				813B69111D546159009FE18A /* heepaySDK */,
+				813B68E11D545ED2009FE18A /* AppDelegate.h */,
+				813B68E21D545ED2009FE18A /* AppDelegate.m */,
+				813B68E41D545ED2009FE18A /* ViewController.h */,
+				813B68E51D545ED2009FE18A /* ViewController.m */,
+				813B68E71D545ED2009FE18A /* Main.storyboard */,
+				813B68EA1D545ED2009FE18A /* Assets.xcassets */,
+				813B68EC1D545ED2009FE18A /* LaunchScreen.storyboard */,
+				813B68EF1D545ED2009FE18A /* Info.plist */,
+				813B68DE1D545ED2009FE18A /* Supporting Files */,
+			);
+			path = TetsHuiFuBao;
+			sourceTree = "<group>";
+		};
+		813B68DE1D545ED2009FE18A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				813B68DF1D545ED2009FE18A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		813B68F71D545ED3009FE18A /* TetsHuiFuBaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				813B68F81D545ED3009FE18A /* TetsHuiFuBaoTests.m */,
+				813B68FA1D545ED3009FE18A /* Info.plist */,
+			);
+			path = TetsHuiFuBaoTests;
+			sourceTree = "<group>";
+		};
+		813B69021D545ED3009FE18A /* TetsHuiFuBaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				813B69031D545ED3009FE18A /* TetsHuiFuBaoUITests.m */,
+				813B69051D545ED3009FE18A /* Info.plist */,
+			);
+			path = TetsHuiFuBaoUITests;
+			sourceTree = "<group>";
+		};
+		813B69111D546159009FE18A /* heepaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				813B69121D546159009FE18A /* AliPaySDK */,
+				813B69151D546159009FE18A /* HeePay.framework */,
+				813B69161D546159009FE18A /* heepayImage.bundle */,
+				813B69171D546159009FE18A /* SDKExport */,
+			);
+			path = heepaySDK;
+			sourceTree = "<group>";
+		};
+		813B69121D546159009FE18A /* AliPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				813B69131D546159009FE18A /* AlipaySDK.bundle */,
+				813B69141D546159009FE18A /* AlipaySDK.framework */,
+			);
+			path = AliPaySDK;
+			sourceTree = "<group>";
+		};
+		813B69171D546159009FE18A /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				813B69181D546159009FE18A /* libWeChatSDK.a */,
+				813B69191D546159009FE18A /* WXApi.h */,
+				813B691A1D546159009FE18A /* WXApiObject.h */,
+			);
+			path = SDKExport;
+			sourceTree = "<group>";
+		};
+		813B69201D546165009FE18A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				813B69211D546165009FE18A /* BaseModel.h */,
+				813B69221D546165009FE18A /* BaseModel.m */,
+				813B69231D546165009FE18A /* HYHeePayModel.h */,
+				813B69241D546165009FE18A /* HYHeePayModel.m */,
+				813B69251D546165009FE18A /* HYTestXMLParse.h */,
+				813B69261D546165009FE18A /* HYTestXMLParse.m */,
+				813B69271D546165009FE18A /* WebRequest.h */,
+				813B69281D546165009FE18A /* WebRequest.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		813B68DA1D545ED2009FE18A /* TetsHuiFuBao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813B69081D545ED3009FE18A /* Build configuration list for PBXNativeTarget "TetsHuiFuBao" */;
+			buildPhases = (
+				813B68D71D545ED2009FE18A /* Sources */,
+				813B68D81D545ED2009FE18A /* Frameworks */,
+				813B68D91D545ED2009FE18A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TetsHuiFuBao;
+			productName = TetsHuiFuBao;
+			productReference = 813B68DB1D545ED2009FE18A /* TetsHuiFuBao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		813B68F31D545ED3009FE18A /* TetsHuiFuBaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813B690B1D545ED3009FE18A /* Build configuration list for PBXNativeTarget "TetsHuiFuBaoTests" */;
+			buildPhases = (
+				813B68F01D545ED3009FE18A /* Sources */,
+				813B68F11D545ED3009FE18A /* Frameworks */,
+				813B68F21D545ED3009FE18A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813B68F61D545ED3009FE18A /* PBXTargetDependency */,
+			);
+			name = TetsHuiFuBaoTests;
+			productName = TetsHuiFuBaoTests;
+			productReference = 813B68F41D545ED3009FE18A /* TetsHuiFuBaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		813B68FE1D545ED3009FE18A /* TetsHuiFuBaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813B690E1D545ED3009FE18A /* Build configuration list for PBXNativeTarget "TetsHuiFuBaoUITests" */;
+			buildPhases = (
+				813B68FB1D545ED3009FE18A /* Sources */,
+				813B68FC1D545ED3009FE18A /* Frameworks */,
+				813B68FD1D545ED3009FE18A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813B69011D545ED3009FE18A /* PBXTargetDependency */,
+			);
+			name = TetsHuiFuBaoUITests;
+			productName = TetsHuiFuBaoUITests;
+			productReference = 813B68FF1D545ED3009FE18A /* TetsHuiFuBaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		813B68D31D545ED2009FE18A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "李鹏辉";
+				TargetAttributes = {
+					813B68DA1D545ED2009FE18A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					813B68F31D545ED3009FE18A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 813B68DA1D545ED2009FE18A;
+					};
+					813B68FE1D545ED3009FE18A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 813B68DA1D545ED2009FE18A;
+					};
+				};
+			};
+			buildConfigurationList = 813B68D61D545ED2009FE18A /* Build configuration list for PBXProject "TetsHuiFuBao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 813B68D21D545ED2009FE18A;
+			productRefGroup = 813B68DC1D545ED2009FE18A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				813B68DA1D545ED2009FE18A /* TetsHuiFuBao */,
+				813B68F31D545ED3009FE18A /* TetsHuiFuBaoTests */,
+				813B68FE1D545ED3009FE18A /* TetsHuiFuBaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		813B68D91D545ED2009FE18A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813B68EE1D545ED2009FE18A /* LaunchScreen.storyboard in Resources */,
+				813B68EB1D545ED2009FE18A /* Assets.xcassets in Resources */,
+				813B691B1D546159009FE18A /* AlipaySDK.bundle in Resources */,
+				813B68E91D545ED2009FE18A /* Main.storyboard in Resources */,
+				813B691E1D546159009FE18A /* heepayImage.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813B68F21D545ED3009FE18A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813B68FD1D545ED3009FE18A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		813B68D71D545ED2009FE18A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813B68E61D545ED2009FE18A /* ViewController.m in Sources */,
+				813B68E31D545ED2009FE18A /* AppDelegate.m in Sources */,
+				813B692C1D546165009FE18A /* WebRequest.m in Sources */,
+				813B692B1D546165009FE18A /* HYTestXMLParse.m in Sources */,
+				813B69291D546165009FE18A /* BaseModel.m in Sources */,
+				813B692A1D546165009FE18A /* HYHeePayModel.m in Sources */,
+				813B68E01D545ED2009FE18A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813B68F01D545ED3009FE18A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813B68F91D545ED3009FE18A /* TetsHuiFuBaoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813B68FB1D545ED3009FE18A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813B69041D545ED3009FE18A /* TetsHuiFuBaoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		813B68F61D545ED3009FE18A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 813B68DA1D545ED2009FE18A /* TetsHuiFuBao */;
+			targetProxy = 813B68F51D545ED3009FE18A /* PBXContainerItemProxy */;
+		};
+		813B69011D545ED3009FE18A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 813B68DA1D545ED2009FE18A /* TetsHuiFuBao */;
+			targetProxy = 813B69001D545ED3009FE18A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		813B68E71D545ED2009FE18A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				813B68E81D545ED2009FE18A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		813B68EC1D545ED2009FE18A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				813B68ED1D545ED2009FE18A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		813B69061D545ED3009FE18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		813B69071D545ED3009FE18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		813B69091D545ED3009FE18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TetsHuiFuBao/heepaySDK/AliPaySDK",
+					"$(PROJECT_DIR)/TetsHuiFuBao/heepaySDK",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = TetsHuiFuBao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TetsHuiFuBao/heepaySDK/SDKExport",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.TetsHuiFuBao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		813B690A1D545ED3009FE18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TetsHuiFuBao/heepaySDK/AliPaySDK",
+					"$(PROJECT_DIR)/TetsHuiFuBao/heepaySDK",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = TetsHuiFuBao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TetsHuiFuBao/heepaySDK/SDKExport",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.TetsHuiFuBao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		813B690C1D545ED3009FE18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TetsHuiFuBaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.TetsHuiFuBaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TetsHuiFuBao.app/TetsHuiFuBao";
+			};
+			name = Debug;
+		};
+		813B690D1D545ED3009FE18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TetsHuiFuBaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.TetsHuiFuBaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TetsHuiFuBao.app/TetsHuiFuBao";
+			};
+			name = Release;
+		};
+		813B690F1D545ED3009FE18A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TetsHuiFuBaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.TetsHuiFuBaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TetsHuiFuBao;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		813B69101D545ED3009FE18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TetsHuiFuBaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.TetsHuiFuBaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TetsHuiFuBao;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		813B68D61D545ED2009FE18A /* Build configuration list for PBXProject "TetsHuiFuBao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813B69061D545ED3009FE18A /* Debug */,
+				813B69071D545ED3009FE18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		813B69081D545ED3009FE18A /* Build configuration list for PBXNativeTarget "TetsHuiFuBao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813B69091D545ED3009FE18A /* Debug */,
+				813B690A1D545ED3009FE18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		813B690B1D545ED3009FE18A /* Build configuration list for PBXNativeTarget "TetsHuiFuBaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813B690C1D545ED3009FE18A /* Debug */,
+				813B690D1D545ED3009FE18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		813B690E1D545ED3009FE18A /* Build configuration list for PBXNativeTarget "TetsHuiFuBaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813B690F1D545ED3009FE18A /* Debug */,
+				813B69101D545ED3009FE18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 813B68D31D545ED2009FE18A /* Project object */;
+}
